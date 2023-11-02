@@ -130,3 +130,65 @@ hr{
     width: 30%;
     margin: 0 auto 0 auto;
 }
+
+/* Add this media query for screens with a maximum width of 768px (typical for mobile devices) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        /* Adjust the font size for better readability on mobile */
+    }
+
+    h1 {
+        font-size: 3rem;
+        /* Reduce the header font size */
+        margin: 20px auto 0 auto;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        /* Reduce the subheader font size */
+    }
+
+    .top-container {
+        padding: 10px;
+        /* Reduce the padding for the top container */
+    }
+
+    .bottom-container {
+        padding: 20px;
+        /* Reduce the padding for the bottom container */
+    }
+
+    .profile-pic {
+        width: 40%;
+        /* Adjust the profile picture size */
+    }
+
+    .skill-1,
+    .skill-2 {
+        height: 15%;
+        /* Adjust the skill icon size */
+        width: 15%;
+    }
+
+    .skill-row {
+        width: 90%;
+        /* Adjust the width for skill rows */
+        margin: 30px auto;
+        /* Reduce the margin */
+        text-align: center;
+        /* Center-align the skill rows */
+    }
+
+    .contact-text {
+        width: 90%;
+        /* Adjust the width for contact text */
+    }
+
+    hr {
+        width: 20%;
+        /* Adjust the width of the horizontal rule */
+        margin: 40px auto;
+        /* Reduce the margin */
+    }
+}
