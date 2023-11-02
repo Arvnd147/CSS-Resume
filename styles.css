@@ -157,6 +157,16 @@ hr{
         /* Reduce the padding for the top container */
     }
 
+    .mountain{
+        height: 50%;
+        width: 50%;
+    }
+
+    .bottom-cloud,
+    top-cloud{
+        width: 10%;
+    }
+
     .bottom-container {
         padding: 20px;
         /* Reduce the padding for the bottom container */
